@@ -36,7 +36,9 @@
     </div>
 
     <div class="slider__item">
-      <div class="slider__img"></div>
+      <div class="slider__img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner1.png" alt="banner">
+      </div>
       <div class="slider__info">
         <b>Бірлесе мығдаған адамға көмек көрсете аламыз!</b>
         <a href="">
@@ -47,7 +49,9 @@
     </div>
 
     <div class="slider__item">
-      <div class="slider__img"></div>
+      <div class="slider__img">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner1.png" alt="banner">
+      </div>
       <div class="slider__info">
         <b>Бірлесе мығдаған адамға көмек көрсете аламыз!</b>
         <a href="">
@@ -101,5 +105,37 @@
 <!-- end new block news -->
 
 <!-- start new block banner -->
-
+<section class="banner1">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner1.png" alt="banner">
+</section>
 <!-- end new block banner -->
+
+<!-- start new block numbers -->
+<section class="numbers">
+  <div class="container">
+    <div class="numbers__title">Фонд в цифрах</div>
+    <div class="numbers__items">
+      <div class="numbers__item">
+        <b>2536</b>
+        <p>социальных проектов</p>
+      </div>
+      <div class="numbers__item">
+        <b>2536</b>
+        <p>социальных проектов</p>
+      </div>
+      <div class="numbers__item">
+        <b>2536</b>
+        <p>социальных проектов</p>
+      </div>
+      <div class="numbers__item">
+        <b>2536</b>
+        <p>социальных проектов</p>
+      </div>
+      <div class="numbers__item">
+        <b>2536</b>
+        <p>социальных проектов</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end new block numbers -->
